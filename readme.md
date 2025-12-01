@@ -15,7 +15,7 @@ Live: https://snippet-api-6hap.onrender.com/
 
 API: All endpoints are accessed via the base URL: http://localhost:3000/api/snippets
 
-![Alt Text for Screen Reader] (images/snippet-api.png)
+![Snippet API is running] (images/snippet-api.png)
 
 1. Example using curl:
 
@@ -23,7 +23,7 @@ curl -X POST http://localhost:3000/api/snippets \
 -H "Content-Type: application/json" \
 -d '{"title": "Hello World", "language": "python", "code": "print(\"Hello World\")"}'
 
-![Successful GET Request](images/curl.png)
+![Successful GET Request](images/curl.PNG)
 
 2. Get All Snippets
    Retrieves a list of all saved snippets.
