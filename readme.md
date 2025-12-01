@@ -17,6 +17,13 @@ API: All endpoints are accessed via the base URL: http://localhost:3000/api/snip
 
 ![Snippet API is running](images/snippet-api.png)
 
+
+Endpoint,Action,Suggested Status Codes
+POST /api/snippets,CREATE,"201 Created (Success), 400 Bad Request (Validation error)"
+GET /api/snippets,READ All,200 OK (Success)
+GET /api/snippets/:id,READ One,"200 OK (Success), 404 Not Found (ID not found)"
+DELETE /api/snippets/:id,DELETE,"204 No Content (Success, no response body), 404 Not Found"
+
 1. Example using curl:
 
 curl -X POST http://localhost:3000/api/snippets \
