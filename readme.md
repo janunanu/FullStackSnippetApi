@@ -15,7 +15,7 @@ Live: https://snippet-api-6hap.onrender.com/
 
 API: All endpoints are accessed via the base URL: http://localhost:3000/api/snippets
 
-![Snippet API is running] (images/snippet-api.png)
+![Snippet API is running](images/snippet-api.png)
 
 1. Example using curl:
 
