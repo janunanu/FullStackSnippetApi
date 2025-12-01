@@ -79,7 +79,7 @@ Video:
 1. Introduction: What is This Application? 0:00
 2. Code Architecture 0:25
 3. Core Functionality: CRUD Operations 1:46
-4. Conclusion and Next Steps 3:50
+4. Conclusion 3:50
 
 
 Author & License
